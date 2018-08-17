@@ -6,4 +6,23 @@
 .number {
     font-size: 20em;
     color: red;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+}
+
+.numOne {
+    font-size: 20em;
+    color: red;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+}
+
+.numTwo {
+    font-size: 20em;
+    color: red;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
 }
