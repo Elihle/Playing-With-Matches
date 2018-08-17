@@ -1,8 +1,9 @@
-.wrapper {
+.container {
     background-color: blue;
+    text-align: center;
 }
-.number h1{
+
+.number {
     font-size: 20em;
-   margin-left: 1em;       
-   color: red;    
-   }
+    color: red;
+}
