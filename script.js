@@ -2,12 +2,17 @@ function getRandom() {
     return Math.ceil(Math.random() * 9);
 }
 
-let number = document.querySelector('.number');
-let numOne = document.querySelector('.numOne');
-let numTwo = document.querySelector('.numTwo');
 
+function showNumber(number){
+    let number = document.querySelector('.number');
+    for (let i = 0; i < number; i++) {
+        if ((number[i])) {
+          number = number[i];
+        }
+        return
+}
+}
 number.innerHTML = getRandom();
-numOne.innerHTML = getRandom();
-numTwo.innerHTML = getRandom();
 
 
+function showNumber
