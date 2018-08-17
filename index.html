@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>The title of my page</title>
 
-	<style type="text/css">
-	/* CSS goes here */
-    .wrapper {
-        background-color: blue;
-    }
-    .number h1{
-        font-size: 20em;
-       margin-left: 1em;       
-       color: red;    
-       }
-	</style>
+<head>
+    <title>The title of my page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- HTML goes here -->
     <div class="wrapper">
         <div class="number">
-            <h1>8</h1>
+            <h1 id="num">8</h1>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function getRandom(min, max) {
+            return (Math.min(max, Math.max(min, max)));
+        }
+
+    </script>
 </body>
+</body>
+
 </html>
